@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+Array [
+  <div
+    className="App"
+  >
+    <h2>
+      Energy Usage
+    </h2>
+    <UsageChart
+      usage={
+        Array [
+          Object {
+            "date": "March-2017",
+            "energyUsage": 17580,
+          },
+        ]
+      }
+    />
+    <h2>
+      Meter Readings
+    </h2>
+    <ReadingsTable
+      readings={
+        Array [
+          Object {
+            "cumulative": 17580,
+            "readingDate": "2017-03-28T00:00:00.000Z",
+            "unit": "kWh",
+          },
+        ]
+      }
+    />
+  </div>,
+]
+`;

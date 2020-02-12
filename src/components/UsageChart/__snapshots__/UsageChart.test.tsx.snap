@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsageCharts should render correctly 1`] = `
+Array [
+  <BarChart
+    barCategoryGap="10%"
+    barGap={4}
+    data={
+      Array [
+        Object {
+          "date": "March-2017",
+          "energyUsage": 17580,
+        },
+        Object {
+          "date": "April-2017",
+          "energyUsage": 17759,
+        },
+        Object {
+          "date": "May-2027",
+          "energyUsage": 18002,
+        },
+      ]
+    }
+    height={400}
+    layout="horizontal"
+    margin={
+      Object {
+        "bottom": 5,
+        "left": 5,
+        "right": 5,
+        "top": 5,
+      }
+    }
+    reverseStackOrder={false}
+    stackOffset="none"
+    width={1400}
+  >
+    <XAxis
+      allowDataOverflow={false}
+      allowDecimals={true}
+      allowDuplicatedCategory={true}
+      dataKey="date"
+      domain={
+        Array [
+          0,
+          "auto",
+        ]
+      }
+      height={30}
+      hide={false}
+      mirror={false}
+      orientation="bottom"
+      padding={
+        Object {
+          "left": 0,
+          "right": 0,
+        }
+      }
+      reversed={false}
+      scale="auto"
+      tickCount={5}
+      type="category"
+      width={0}
+      xAxisId={0}
+    />
+    <YAxis
+      allowDataOverflow={false}
+      allowDecimals={true}
+      allowDuplicatedCategory={true}
+      dataKey="energyUsage"
+      domain={
+        Array [
+          0,
+          "auto",
+        ]
+      }
+      height={0}
+      hide={false}
+      mirror={false}
+      orientation="left"
+      padding={
+        Object {
+          "bottom": 0,
+          "top": 0,
+        }
+      }
+      reversed={false}
+      scale="auto"
+      tickCount={5}
+      type="number"
+      width={60}
+      yAxisId={0}
+    />
+    <CartesianGrid
+      fill="none"
+      horizontal={true}
+      horizontalFill={Array []}
+      horizontalPoints={Array []}
+      stroke="#ccc"
+      vertical={true}
+      verticalFill={Array []}
+      verticalPoints={Array []}
+    />
+    <Tooltip
+      active={false}
+      allowEscapeViewBox={
+        Object {
+          "x": false,
+          "y": false,
+        }
+      }
+      animationDuration={400}
+      animationEasing="ease"
+      contentStyle={Object {}}
+      coordinate={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      cursor={true}
+      cursorStyle={Object {}}
+      filterNull={true}
+      isAnimationActive={true}
+      itemStyle={Object {}}
+      labelStyle={Object {}}
+      offset={10}
+      separator=" : "
+      useTranslate3d={false}
+      viewBox={
+        Object {
+          "x1": 0,
+          "x2": 0,
+          "y1": 0,
+          "y2": 0,
+        }
+      }
+      wrapperStyle={Object {}}
+    />
+    <Bar
+      animationBegin={0}
+      animationDuration={400}
+      animationEasing="ease"
+      data={Array []}
+      dataKey="energyUsage"
+      fill="#03ad54"
+      hide={false}
+      isAnimationActive={false}
+      layout="vertical"
+      legendType="rect"
+      minPointSize={0}
+      onAnimationEnd={[Function]}
+      onAnimationStart={[Function]}
+      xAxisId={0}
+      yAxisId={0}
+    />
+  </BarChart>,
+]
+`;

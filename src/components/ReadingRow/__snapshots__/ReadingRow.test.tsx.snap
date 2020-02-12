@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReadingRow should render correctly 1`] = `
+Array [
+  <tr>
+    <td>
+      2017-03-28T00:00:00.000Z
+    </td>
+    <td>
+      17580
+    </td>
+    <td>
+      kWh
+    </td>
+  </tr>,
+]
+`;

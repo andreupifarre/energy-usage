@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReadingsTable should render correctly 1`] = `
+Array [
+  <table
+    className="ReadingsTable"
+  >
+    <tbody>
+      <tr>
+        <th
+          align="left"
+        >
+          Date
+        </th>
+        <th
+          align="left"
+        >
+          Reading
+        </th>
+        <th
+          align="left"
+        >
+          Unit
+        </th>
+      </tr>
+      <ReadingRow
+        cumulative={17580}
+        readingDate="2017-03-28T00:00:00.000Z"
+        unit="kWh"
+      />
+      <ReadingRow
+        cumulative={17759}
+        readingDate="2017-04-15T00:00:00.000Z"
+        unit="kWh"
+      />
+      <ReadingRow
+        cumulative={18002}
+        readingDate="2017-05-08T00:00:00.000Z"
+        unit="kWh"
+      />
+    </tbody>
+  </table>,
+]
+`;
